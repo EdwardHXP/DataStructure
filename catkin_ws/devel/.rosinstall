@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/hxp/dataStructureTest/catkin_ws/devel/setup.sh

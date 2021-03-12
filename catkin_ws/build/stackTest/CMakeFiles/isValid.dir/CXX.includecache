@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hxp/dataStructureTest/catkin_ws/src/stackTest/src/isValid.cpp
+stack
+-
+iostream
+-
+string
+-
+
