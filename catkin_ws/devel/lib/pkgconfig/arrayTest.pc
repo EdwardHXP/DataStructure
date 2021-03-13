@@ -1,0 +1,8 @@
+prefix=/home/hxp/dataStructureTest/catkin_ws/devel
+
+Name: arrayTest
+Description: Description of arrayTest
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

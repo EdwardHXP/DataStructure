@@ -1,2 +1,2 @@
-listTest:stackTest:vectorTest
+arrayTest:listTest:stackTest:treeNodeTest:vectorTest
 -DCATKIN_DEVEL_PREFIX=/home/hxp/dataStructureTest/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/hxp/dataStructureTest/catkin_ws/install -G Unix Makefiles

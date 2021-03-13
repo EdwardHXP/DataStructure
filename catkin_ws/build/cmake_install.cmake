@@ -131,8 +131,10 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/hxp/dataStructureTest/catkin_ws/build/gtest/cmake_install.cmake")
+  include("/home/hxp/dataStructureTest/catkin_ws/build/arrayTest/cmake_install.cmake")
   include("/home/hxp/dataStructureTest/catkin_ws/build/listTest/cmake_install.cmake")
   include("/home/hxp/dataStructureTest/catkin_ws/build/stackTest/cmake_install.cmake")
+  include("/home/hxp/dataStructureTest/catkin_ws/build/treeNodeTest/cmake_install.cmake")
   include("/home/hxp/dataStructureTest/catkin_ws/build/vectorTest/cmake_install.cmake")
 
 endif()
