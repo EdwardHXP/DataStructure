@@ -152,6 +152,9 @@ include_directories(
 add_executable(threeOrders src/threeOrders.cpp)
 target_link_libraries(threeOrders ${catkin_LIBRARIES})
 
+add_executable(mirror src/mirror.cpp)
+target_link_libraries(mirror ${catkin_LIBRARIES})
+
 #############
 ## Install ##
 #############

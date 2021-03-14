@@ -545,6 +545,19 @@ isValid/fast:
 .PHONY : isValid/fast
 
 #=============================================================================
+# Target rules for targets named mirror
+
+# Build rule for target.
+mirror: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mirror
+.PHONY : mirror
+
+# fast build rule for target.
+mirror/fast:
+	$(MAKE) -f treeNodeTest/CMakeFiles/mirror.dir/build.make treeNodeTest/CMakeFiles/mirror.dir/build
+.PHONY : mirror/fast
+
+#=============================================================================
 # Target rules for targets named threeOrders
 
 # Build rule for target.
@@ -556,6 +569,45 @@ threeOrders: cmake_check_build_system
 threeOrders/fast:
 	$(MAKE) -f treeNodeTest/CMakeFiles/threeOrders.dir/build.make treeNodeTest/CMakeFiles/threeOrders.dir/build
 .PHONY : threeOrders/fast
+
+#=============================================================================
+# Target rules for targets named findKth
+
+# Build rule for target.
+findKth: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 findKth
+.PHONY : findKth
+
+# fast build rule for target.
+findKth/fast:
+	$(MAKE) -f vectorTest/CMakeFiles/findKth.dir/build.make vectorTest/CMakeFiles/findKth.dir/build
+.PHONY : findKth/fast
+
+#=============================================================================
+# Target rules for targets named maxProfit
+
+# Build rule for target.
+maxProfit: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 maxProfit
+.PHONY : maxProfit
+
+# fast build rule for target.
+maxProfit/fast:
+	$(MAKE) -f vectorTest/CMakeFiles/maxProfit.dir/build.make vectorTest/CMakeFiles/maxProfit.dir/build
+.PHONY : maxProfit/fast
+
+#=============================================================================
+# Target rules for targets named search
+
+# Build rule for target.
+search: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 search
+.PHONY : search
+
+# fast build rule for target.
+search/fast:
+	$(MAKE) -f vectorTest/CMakeFiles/search.dir/build.make vectorTest/CMakeFiles/search.dir/build
+.PHONY : search/fast
 
 #=============================================================================
 # Target rules for targets named GetLeastNumbers
@@ -612,7 +664,11 @@ help:
 	@echo "... reverseKGroup"
 	@echo "... reverseList"
 	@echo "... isValid"
+	@echo "... mirror"
 	@echo "... threeOrders"
+	@echo "... findKth"
+	@echo "... maxProfit"
+	@echo "... search"
 	@echo "... GetLeastNumbers"
 .PHONY : help
 

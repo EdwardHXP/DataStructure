@@ -152,6 +152,15 @@ include_directories(
 add_executable(GetLeastNumbers src/GetLeastNumbers.cpp)
 target_link_libraries(GetLeastNumbers ${catkin_LIBRARIES})
 
+add_executable(maxProfit src/maxProfit.cpp)
+target_link_libraries(maxProfit ${catkin_LIBRARIES})
+
+add_executable(findKth src/findKth.cpp)
+target_link_libraries(findKth ${catkin_LIBRARIES})
+
+add_executable(search src/search.cpp)
+target_link_libraries(search ${catkin_LIBRARIES})
+
 #############
 ## Install ##
 #############

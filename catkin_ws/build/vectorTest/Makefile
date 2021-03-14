@@ -168,6 +168,51 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+vectorTest/CMakeFiles/findKth.dir/rule:
+	cd /home/hxp/dataStructureTest/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 vectorTest/CMakeFiles/findKth.dir/rule
+.PHONY : vectorTest/CMakeFiles/findKth.dir/rule
+
+# Convenience name for target.
+findKth: vectorTest/CMakeFiles/findKth.dir/rule
+
+.PHONY : findKth
+
+# fast build rule for target.
+findKth/fast:
+	cd /home/hxp/dataStructureTest/catkin_ws/build && $(MAKE) -f vectorTest/CMakeFiles/findKth.dir/build.make vectorTest/CMakeFiles/findKth.dir/build
+.PHONY : findKth/fast
+
+# Convenience name for target.
+vectorTest/CMakeFiles/maxProfit.dir/rule:
+	cd /home/hxp/dataStructureTest/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 vectorTest/CMakeFiles/maxProfit.dir/rule
+.PHONY : vectorTest/CMakeFiles/maxProfit.dir/rule
+
+# Convenience name for target.
+maxProfit: vectorTest/CMakeFiles/maxProfit.dir/rule
+
+.PHONY : maxProfit
+
+# fast build rule for target.
+maxProfit/fast:
+	cd /home/hxp/dataStructureTest/catkin_ws/build && $(MAKE) -f vectorTest/CMakeFiles/maxProfit.dir/build.make vectorTest/CMakeFiles/maxProfit.dir/build
+.PHONY : maxProfit/fast
+
+# Convenience name for target.
+vectorTest/CMakeFiles/search.dir/rule:
+	cd /home/hxp/dataStructureTest/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 vectorTest/CMakeFiles/search.dir/rule
+.PHONY : vectorTest/CMakeFiles/search.dir/rule
+
+# Convenience name for target.
+search: vectorTest/CMakeFiles/search.dir/rule
+
+.PHONY : search
+
+# fast build rule for target.
+search/fast:
+	cd /home/hxp/dataStructureTest/catkin_ws/build && $(MAKE) -f vectorTest/CMakeFiles/search.dir/build.make vectorTest/CMakeFiles/search.dir/build
+.PHONY : search/fast
+
+# Convenience name for target.
 vectorTest/CMakeFiles/GetLeastNumbers.dir/rule:
 	cd /home/hxp/dataStructureTest/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 vectorTest/CMakeFiles/GetLeastNumbers.dir/rule
 .PHONY : vectorTest/CMakeFiles/GetLeastNumbers.dir/rule
@@ -209,6 +254,87 @@ src/GetLeastNumbers.cpp.s:
 	cd /home/hxp/dataStructureTest/catkin_ws/build && $(MAKE) -f vectorTest/CMakeFiles/GetLeastNumbers.dir/build.make vectorTest/CMakeFiles/GetLeastNumbers.dir/src/GetLeastNumbers.cpp.s
 .PHONY : src/GetLeastNumbers.cpp.s
 
+src/findKth.o: src/findKth.cpp.o
+
+.PHONY : src/findKth.o
+
+# target to build an object file
+src/findKth.cpp.o:
+	cd /home/hxp/dataStructureTest/catkin_ws/build && $(MAKE) -f vectorTest/CMakeFiles/findKth.dir/build.make vectorTest/CMakeFiles/findKth.dir/src/findKth.cpp.o
+.PHONY : src/findKth.cpp.o
+
+src/findKth.i: src/findKth.cpp.i
+
+.PHONY : src/findKth.i
+
+# target to preprocess a source file
+src/findKth.cpp.i:
+	cd /home/hxp/dataStructureTest/catkin_ws/build && $(MAKE) -f vectorTest/CMakeFiles/findKth.dir/build.make vectorTest/CMakeFiles/findKth.dir/src/findKth.cpp.i
+.PHONY : src/findKth.cpp.i
+
+src/findKth.s: src/findKth.cpp.s
+
+.PHONY : src/findKth.s
+
+# target to generate assembly for a file
+src/findKth.cpp.s:
+	cd /home/hxp/dataStructureTest/catkin_ws/build && $(MAKE) -f vectorTest/CMakeFiles/findKth.dir/build.make vectorTest/CMakeFiles/findKth.dir/src/findKth.cpp.s
+.PHONY : src/findKth.cpp.s
+
+src/maxProfit.o: src/maxProfit.cpp.o
+
+.PHONY : src/maxProfit.o
+
+# target to build an object file
+src/maxProfit.cpp.o:
+	cd /home/hxp/dataStructureTest/catkin_ws/build && $(MAKE) -f vectorTest/CMakeFiles/maxProfit.dir/build.make vectorTest/CMakeFiles/maxProfit.dir/src/maxProfit.cpp.o
+.PHONY : src/maxProfit.cpp.o
+
+src/maxProfit.i: src/maxProfit.cpp.i
+
+.PHONY : src/maxProfit.i
+
+# target to preprocess a source file
+src/maxProfit.cpp.i:
+	cd /home/hxp/dataStructureTest/catkin_ws/build && $(MAKE) -f vectorTest/CMakeFiles/maxProfit.dir/build.make vectorTest/CMakeFiles/maxProfit.dir/src/maxProfit.cpp.i
+.PHONY : src/maxProfit.cpp.i
+
+src/maxProfit.s: src/maxProfit.cpp.s
+
+.PHONY : src/maxProfit.s
+
+# target to generate assembly for a file
+src/maxProfit.cpp.s:
+	cd /home/hxp/dataStructureTest/catkin_ws/build && $(MAKE) -f vectorTest/CMakeFiles/maxProfit.dir/build.make vectorTest/CMakeFiles/maxProfit.dir/src/maxProfit.cpp.s
+.PHONY : src/maxProfit.cpp.s
+
+src/search.o: src/search.cpp.o
+
+.PHONY : src/search.o
+
+# target to build an object file
+src/search.cpp.o:
+	cd /home/hxp/dataStructureTest/catkin_ws/build && $(MAKE) -f vectorTest/CMakeFiles/search.dir/build.make vectorTest/CMakeFiles/search.dir/src/search.cpp.o
+.PHONY : src/search.cpp.o
+
+src/search.i: src/search.cpp.i
+
+.PHONY : src/search.i
+
+# target to preprocess a source file
+src/search.cpp.i:
+	cd /home/hxp/dataStructureTest/catkin_ws/build && $(MAKE) -f vectorTest/CMakeFiles/search.dir/build.make vectorTest/CMakeFiles/search.dir/src/search.cpp.i
+.PHONY : src/search.cpp.i
+
+src/search.s: src/search.cpp.s
+
+.PHONY : src/search.s
+
+# target to generate assembly for a file
+src/search.cpp.s:
+	cd /home/hxp/dataStructureTest/catkin_ws/build && $(MAKE) -f vectorTest/CMakeFiles/search.dir/build.make vectorTest/CMakeFiles/search.dir/src/search.cpp.s
+.PHONY : src/search.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -221,11 +347,23 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
+	@echo "... findKth"
+	@echo "... maxProfit"
 	@echo "... install/strip"
+	@echo "... search"
 	@echo "... GetLeastNumbers"
 	@echo "... src/GetLeastNumbers.o"
 	@echo "... src/GetLeastNumbers.i"
 	@echo "... src/GetLeastNumbers.s"
+	@echo "... src/findKth.o"
+	@echo "... src/findKth.i"
+	@echo "... src/findKth.s"
+	@echo "... src/maxProfit.o"
+	@echo "... src/maxProfit.i"
+	@echo "... src/maxProfit.s"
+	@echo "... src/search.o"
+	@echo "... src/search.i"
+	@echo "... src/search.s"
 .PHONY : help
 
 

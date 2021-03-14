@@ -241,6 +241,10 @@ set(CMAKE_DEPEND_INFO_FILES
   "listTest/CMakeFiles/reverseKGroup.dir/DependInfo.cmake"
   "listTest/CMakeFiles/reverseList.dir/DependInfo.cmake"
   "stackTest/CMakeFiles/isValid.dir/DependInfo.cmake"
+  "treeNodeTest/CMakeFiles/mirror.dir/DependInfo.cmake"
   "treeNodeTest/CMakeFiles/threeOrders.dir/DependInfo.cmake"
+  "vectorTest/CMakeFiles/findKth.dir/DependInfo.cmake"
+  "vectorTest/CMakeFiles/maxProfit.dir/DependInfo.cmake"
+  "vectorTest/CMakeFiles/search.dir/DependInfo.cmake"
   "vectorTest/CMakeFiles/GetLeastNumbers.dir/DependInfo.cmake"
   )

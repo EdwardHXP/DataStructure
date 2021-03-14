@@ -221,6 +221,7 @@ stackTest/clean: stackTest/CMakeFiles/isValid.dir/clean
 # Directory level rules for directory treeNodeTest
 
 # Recursive "all" directory target.
+treeNodeTest/all: treeNodeTest/CMakeFiles/mirror.dir/all
 treeNodeTest/all: treeNodeTest/CMakeFiles/threeOrders.dir/all
 
 .PHONY : treeNodeTest/all
@@ -231,6 +232,7 @@ treeNodeTest/preinstall:
 .PHONY : treeNodeTest/preinstall
 
 # Recursive "clean" directory target.
+treeNodeTest/clean: treeNodeTest/CMakeFiles/mirror.dir/clean
 treeNodeTest/clean: treeNodeTest/CMakeFiles/threeOrders.dir/clean
 
 .PHONY : treeNodeTest/clean
@@ -239,6 +241,9 @@ treeNodeTest/clean: treeNodeTest/CMakeFiles/threeOrders.dir/clean
 # Directory level rules for directory vectorTest
 
 # Recursive "all" directory target.
+vectorTest/all: vectorTest/CMakeFiles/findKth.dir/all
+vectorTest/all: vectorTest/CMakeFiles/maxProfit.dir/all
+vectorTest/all: vectorTest/CMakeFiles/search.dir/all
 vectorTest/all: vectorTest/CMakeFiles/GetLeastNumbers.dir/all
 
 .PHONY : vectorTest/all
@@ -249,6 +254,9 @@ vectorTest/preinstall:
 .PHONY : vectorTest/preinstall
 
 # Recursive "clean" directory target.
+vectorTest/clean: vectorTest/CMakeFiles/findKth.dir/clean
+vectorTest/clean: vectorTest/CMakeFiles/maxProfit.dir/clean
+vectorTest/clean: vectorTest/CMakeFiles/search.dir/clean
 vectorTest/clean: vectorTest/CMakeFiles/GetLeastNumbers.dir/clean
 
 .PHONY : vectorTest/clean
@@ -396,7 +404,7 @@ gtest/googlemock/CMakeFiles/gmock_main.dir/all: gtest/googlemock/CMakeFiles/gmoc
 gtest/googlemock/CMakeFiles/gmock_main.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hxp/dataStructureTest/catkin_ws/build/CMakeFiles --progress-num=5,6 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hxp/dataStructureTest/catkin_ws/build/CMakeFiles --progress-num=7,8 "Built target gmock_main"
 .PHONY : gtest/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -423,7 +431,7 @@ gtest/googlemock/CMakeFiles/gmock_main.dir/clean:
 gtest/googlemock/CMakeFiles/gmock.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hxp/dataStructureTest/catkin_ws/build/CMakeFiles --progress-num=3,4 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hxp/dataStructureTest/catkin_ws/build/CMakeFiles --progress-num=5,6 "Built target gmock"
 .PHONY : gtest/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
@@ -450,7 +458,7 @@ gtest/googlemock/CMakeFiles/gmock.dir/clean:
 gtest/googletest/CMakeFiles/gtest_main.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest_main.dir/build.make gtest/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest_main.dir/build.make gtest/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hxp/dataStructureTest/catkin_ws/build/CMakeFiles --progress-num=9,10 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hxp/dataStructureTest/catkin_ws/build/CMakeFiles --progress-num=11,12 "Built target gtest_main"
 .PHONY : gtest/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -477,7 +485,7 @@ gtest/googletest/CMakeFiles/gtest_main.dir/clean:
 gtest/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest.dir/build.make gtest/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest.dir/build.make gtest/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hxp/dataStructureTest/catkin_ws/build/CMakeFiles --progress-num=7,8 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hxp/dataStructureTest/catkin_ws/build/CMakeFiles --progress-num=9,10 "Built target gtest"
 .PHONY : gtest/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -504,7 +512,7 @@ gtest/googletest/CMakeFiles/gtest.dir/clean:
 arrayTest/CMakeFiles/merge.dir/all:
 	$(MAKE) -f arrayTest/CMakeFiles/merge.dir/build.make arrayTest/CMakeFiles/merge.dir/depend
 	$(MAKE) -f arrayTest/CMakeFiles/merge.dir/build.make arrayTest/CMakeFiles/merge.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hxp/dataStructureTest/catkin_ws/build/CMakeFiles --progress-num=15,16 "Built target merge"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hxp/dataStructureTest/catkin_ws/build/CMakeFiles --progress-num=19,20 "Built target merge"
 .PHONY : arrayTest/CMakeFiles/merge.dir/all
 
 # Build rule for subdir invocation for target.
@@ -936,7 +944,7 @@ arrayTest/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean:
 listTest/CMakeFiles/hasCycle.dir/all:
 	$(MAKE) -f listTest/CMakeFiles/hasCycle.dir/build.make listTest/CMakeFiles/hasCycle.dir/depend
 	$(MAKE) -f listTest/CMakeFiles/hasCycle.dir/build.make listTest/CMakeFiles/hasCycle.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hxp/dataStructureTest/catkin_ws/build/CMakeFiles --progress-num=11,12 "Built target hasCycle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hxp/dataStructureTest/catkin_ws/build/CMakeFiles --progress-num=13,14 "Built target hasCycle"
 .PHONY : listTest/CMakeFiles/hasCycle.dir/all
 
 # Build rule for subdir invocation for target.
@@ -963,7 +971,7 @@ listTest/CMakeFiles/hasCycle.dir/clean:
 listTest/CMakeFiles/reverseKGroup.dir/all:
 	$(MAKE) -f listTest/CMakeFiles/reverseKGroup.dir/build.make listTest/CMakeFiles/reverseKGroup.dir/depend
 	$(MAKE) -f listTest/CMakeFiles/reverseKGroup.dir/build.make listTest/CMakeFiles/reverseKGroup.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hxp/dataStructureTest/catkin_ws/build/CMakeFiles --progress-num=17,18 "Built target reverseKGroup"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hxp/dataStructureTest/catkin_ws/build/CMakeFiles --progress-num=23,24 "Built target reverseKGroup"
 .PHONY : listTest/CMakeFiles/reverseKGroup.dir/all
 
 # Build rule for subdir invocation for target.
@@ -990,7 +998,7 @@ listTest/CMakeFiles/reverseKGroup.dir/clean:
 listTest/CMakeFiles/reverseList.dir/all:
 	$(MAKE) -f listTest/CMakeFiles/reverseList.dir/build.make listTest/CMakeFiles/reverseList.dir/depend
 	$(MAKE) -f listTest/CMakeFiles/reverseList.dir/build.make listTest/CMakeFiles/reverseList.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hxp/dataStructureTest/catkin_ws/build/CMakeFiles --progress-num=19,20 "Built target reverseList"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hxp/dataStructureTest/catkin_ws/build/CMakeFiles --progress-num=25,26 "Built target reverseList"
 .PHONY : listTest/CMakeFiles/reverseList.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1017,7 +1025,7 @@ listTest/CMakeFiles/reverseList.dir/clean:
 stackTest/CMakeFiles/isValid.dir/all:
 	$(MAKE) -f stackTest/CMakeFiles/isValid.dir/build.make stackTest/CMakeFiles/isValid.dir/depend
 	$(MAKE) -f stackTest/CMakeFiles/isValid.dir/build.make stackTest/CMakeFiles/isValid.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hxp/dataStructureTest/catkin_ws/build/CMakeFiles --progress-num=13,14 "Built target isValid"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hxp/dataStructureTest/catkin_ws/build/CMakeFiles --progress-num=15,16 "Built target isValid"
 .PHONY : stackTest/CMakeFiles/isValid.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1038,13 +1046,40 @@ stackTest/CMakeFiles/isValid.dir/clean:
 .PHONY : stackTest/CMakeFiles/isValid.dir/clean
 
 #=============================================================================
+# Target rules for target treeNodeTest/CMakeFiles/mirror.dir
+
+# All Build rule for target.
+treeNodeTest/CMakeFiles/mirror.dir/all:
+	$(MAKE) -f treeNodeTest/CMakeFiles/mirror.dir/build.make treeNodeTest/CMakeFiles/mirror.dir/depend
+	$(MAKE) -f treeNodeTest/CMakeFiles/mirror.dir/build.make treeNodeTest/CMakeFiles/mirror.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hxp/dataStructureTest/catkin_ws/build/CMakeFiles --progress-num=21,22 "Built target mirror"
+.PHONY : treeNodeTest/CMakeFiles/mirror.dir/all
+
+# Build rule for subdir invocation for target.
+treeNodeTest/CMakeFiles/mirror.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hxp/dataStructureTest/catkin_ws/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 treeNodeTest/CMakeFiles/mirror.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hxp/dataStructureTest/catkin_ws/build/CMakeFiles 0
+.PHONY : treeNodeTest/CMakeFiles/mirror.dir/rule
+
+# Convenience name for target.
+mirror: treeNodeTest/CMakeFiles/mirror.dir/rule
+
+.PHONY : mirror
+
+# clean rule for target.
+treeNodeTest/CMakeFiles/mirror.dir/clean:
+	$(MAKE) -f treeNodeTest/CMakeFiles/mirror.dir/build.make treeNodeTest/CMakeFiles/mirror.dir/clean
+.PHONY : treeNodeTest/CMakeFiles/mirror.dir/clean
+
+#=============================================================================
 # Target rules for target treeNodeTest/CMakeFiles/threeOrders.dir
 
 # All Build rule for target.
 treeNodeTest/CMakeFiles/threeOrders.dir/all:
 	$(MAKE) -f treeNodeTest/CMakeFiles/threeOrders.dir/build.make treeNodeTest/CMakeFiles/threeOrders.dir/depend
 	$(MAKE) -f treeNodeTest/CMakeFiles/threeOrders.dir/build.make treeNodeTest/CMakeFiles/threeOrders.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hxp/dataStructureTest/catkin_ws/build/CMakeFiles --progress-num=21,22 "Built target threeOrders"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hxp/dataStructureTest/catkin_ws/build/CMakeFiles --progress-num=29,30 "Built target threeOrders"
 .PHONY : treeNodeTest/CMakeFiles/threeOrders.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1063,6 +1098,87 @@ threeOrders: treeNodeTest/CMakeFiles/threeOrders.dir/rule
 treeNodeTest/CMakeFiles/threeOrders.dir/clean:
 	$(MAKE) -f treeNodeTest/CMakeFiles/threeOrders.dir/build.make treeNodeTest/CMakeFiles/threeOrders.dir/clean
 .PHONY : treeNodeTest/CMakeFiles/threeOrders.dir/clean
+
+#=============================================================================
+# Target rules for target vectorTest/CMakeFiles/findKth.dir
+
+# All Build rule for target.
+vectorTest/CMakeFiles/findKth.dir/all:
+	$(MAKE) -f vectorTest/CMakeFiles/findKth.dir/build.make vectorTest/CMakeFiles/findKth.dir/depend
+	$(MAKE) -f vectorTest/CMakeFiles/findKth.dir/build.make vectorTest/CMakeFiles/findKth.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hxp/dataStructureTest/catkin_ws/build/CMakeFiles --progress-num=3,4 "Built target findKth"
+.PHONY : vectorTest/CMakeFiles/findKth.dir/all
+
+# Build rule for subdir invocation for target.
+vectorTest/CMakeFiles/findKth.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hxp/dataStructureTest/catkin_ws/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 vectorTest/CMakeFiles/findKth.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hxp/dataStructureTest/catkin_ws/build/CMakeFiles 0
+.PHONY : vectorTest/CMakeFiles/findKth.dir/rule
+
+# Convenience name for target.
+findKth: vectorTest/CMakeFiles/findKth.dir/rule
+
+.PHONY : findKth
+
+# clean rule for target.
+vectorTest/CMakeFiles/findKth.dir/clean:
+	$(MAKE) -f vectorTest/CMakeFiles/findKth.dir/build.make vectorTest/CMakeFiles/findKth.dir/clean
+.PHONY : vectorTest/CMakeFiles/findKth.dir/clean
+
+#=============================================================================
+# Target rules for target vectorTest/CMakeFiles/maxProfit.dir
+
+# All Build rule for target.
+vectorTest/CMakeFiles/maxProfit.dir/all:
+	$(MAKE) -f vectorTest/CMakeFiles/maxProfit.dir/build.make vectorTest/CMakeFiles/maxProfit.dir/depend
+	$(MAKE) -f vectorTest/CMakeFiles/maxProfit.dir/build.make vectorTest/CMakeFiles/maxProfit.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hxp/dataStructureTest/catkin_ws/build/CMakeFiles --progress-num=17,18 "Built target maxProfit"
+.PHONY : vectorTest/CMakeFiles/maxProfit.dir/all
+
+# Build rule for subdir invocation for target.
+vectorTest/CMakeFiles/maxProfit.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hxp/dataStructureTest/catkin_ws/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 vectorTest/CMakeFiles/maxProfit.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hxp/dataStructureTest/catkin_ws/build/CMakeFiles 0
+.PHONY : vectorTest/CMakeFiles/maxProfit.dir/rule
+
+# Convenience name for target.
+maxProfit: vectorTest/CMakeFiles/maxProfit.dir/rule
+
+.PHONY : maxProfit
+
+# clean rule for target.
+vectorTest/CMakeFiles/maxProfit.dir/clean:
+	$(MAKE) -f vectorTest/CMakeFiles/maxProfit.dir/build.make vectorTest/CMakeFiles/maxProfit.dir/clean
+.PHONY : vectorTest/CMakeFiles/maxProfit.dir/clean
+
+#=============================================================================
+# Target rules for target vectorTest/CMakeFiles/search.dir
+
+# All Build rule for target.
+vectorTest/CMakeFiles/search.dir/all:
+	$(MAKE) -f vectorTest/CMakeFiles/search.dir/build.make vectorTest/CMakeFiles/search.dir/depend
+	$(MAKE) -f vectorTest/CMakeFiles/search.dir/build.make vectorTest/CMakeFiles/search.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hxp/dataStructureTest/catkin_ws/build/CMakeFiles --progress-num=27,28 "Built target search"
+.PHONY : vectorTest/CMakeFiles/search.dir/all
+
+# Build rule for subdir invocation for target.
+vectorTest/CMakeFiles/search.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hxp/dataStructureTest/catkin_ws/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 vectorTest/CMakeFiles/search.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hxp/dataStructureTest/catkin_ws/build/CMakeFiles 0
+.PHONY : vectorTest/CMakeFiles/search.dir/rule
+
+# Convenience name for target.
+search: vectorTest/CMakeFiles/search.dir/rule
+
+.PHONY : search
+
+# clean rule for target.
+vectorTest/CMakeFiles/search.dir/clean:
+	$(MAKE) -f vectorTest/CMakeFiles/search.dir/build.make vectorTest/CMakeFiles/search.dir/clean
+.PHONY : vectorTest/CMakeFiles/search.dir/clean
 
 #=============================================================================
 # Target rules for target vectorTest/CMakeFiles/GetLeastNumbers.dir

@@ -82,6 +82,7 @@
 /home/hxp/dataStructureTest/catkin_ws/build/treeNodeTest/CMakeFiles/rebuild_cache.dir
 /home/hxp/dataStructureTest/catkin_ws/build/treeNodeTest/CMakeFiles/edit_cache.dir
 /home/hxp/dataStructureTest/catkin_ws/build/treeNodeTest/CMakeFiles/test.dir
+/home/hxp/dataStructureTest/catkin_ws/build/treeNodeTest/CMakeFiles/mirror.dir
 /home/hxp/dataStructureTest/catkin_ws/build/treeNodeTest/CMakeFiles/install/local.dir
 /home/hxp/dataStructureTest/catkin_ws/build/treeNodeTest/CMakeFiles/threeOrders.dir
 /home/hxp/dataStructureTest/catkin_ws/build/vectorTest/CMakeFiles/install/local.dir
@@ -90,5 +91,8 @@
 /home/hxp/dataStructureTest/catkin_ws/build/vectorTest/CMakeFiles/rebuild_cache.dir
 /home/hxp/dataStructureTest/catkin_ws/build/vectorTest/CMakeFiles/edit_cache.dir
 /home/hxp/dataStructureTest/catkin_ws/build/vectorTest/CMakeFiles/test.dir
+/home/hxp/dataStructureTest/catkin_ws/build/vectorTest/CMakeFiles/findKth.dir
+/home/hxp/dataStructureTest/catkin_ws/build/vectorTest/CMakeFiles/maxProfit.dir
 /home/hxp/dataStructureTest/catkin_ws/build/vectorTest/CMakeFiles/install/strip.dir
+/home/hxp/dataStructureTest/catkin_ws/build/vectorTest/CMakeFiles/search.dir
 /home/hxp/dataStructureTest/catkin_ws/build/vectorTest/CMakeFiles/GetLeastNumbers.dir

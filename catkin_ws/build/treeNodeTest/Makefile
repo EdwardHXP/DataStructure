@@ -168,6 +168,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+treeNodeTest/CMakeFiles/mirror.dir/rule:
+	cd /home/hxp/dataStructureTest/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 treeNodeTest/CMakeFiles/mirror.dir/rule
+.PHONY : treeNodeTest/CMakeFiles/mirror.dir/rule
+
+# Convenience name for target.
+mirror: treeNodeTest/CMakeFiles/mirror.dir/rule
+
+.PHONY : mirror
+
+# fast build rule for target.
+mirror/fast:
+	cd /home/hxp/dataStructureTest/catkin_ws/build && $(MAKE) -f treeNodeTest/CMakeFiles/mirror.dir/build.make treeNodeTest/CMakeFiles/mirror.dir/build
+.PHONY : mirror/fast
+
+# Convenience name for target.
 treeNodeTest/CMakeFiles/threeOrders.dir/rule:
 	cd /home/hxp/dataStructureTest/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 treeNodeTest/CMakeFiles/threeOrders.dir/rule
 .PHONY : treeNodeTest/CMakeFiles/threeOrders.dir/rule
@@ -181,6 +196,33 @@ threeOrders: treeNodeTest/CMakeFiles/threeOrders.dir/rule
 threeOrders/fast:
 	cd /home/hxp/dataStructureTest/catkin_ws/build && $(MAKE) -f treeNodeTest/CMakeFiles/threeOrders.dir/build.make treeNodeTest/CMakeFiles/threeOrders.dir/build
 .PHONY : threeOrders/fast
+
+src/mirror.o: src/mirror.cpp.o
+
+.PHONY : src/mirror.o
+
+# target to build an object file
+src/mirror.cpp.o:
+	cd /home/hxp/dataStructureTest/catkin_ws/build && $(MAKE) -f treeNodeTest/CMakeFiles/mirror.dir/build.make treeNodeTest/CMakeFiles/mirror.dir/src/mirror.cpp.o
+.PHONY : src/mirror.cpp.o
+
+src/mirror.i: src/mirror.cpp.i
+
+.PHONY : src/mirror.i
+
+# target to preprocess a source file
+src/mirror.cpp.i:
+	cd /home/hxp/dataStructureTest/catkin_ws/build && $(MAKE) -f treeNodeTest/CMakeFiles/mirror.dir/build.make treeNodeTest/CMakeFiles/mirror.dir/src/mirror.cpp.i
+.PHONY : src/mirror.cpp.i
+
+src/mirror.s: src/mirror.cpp.s
+
+.PHONY : src/mirror.s
+
+# target to generate assembly for a file
+src/mirror.cpp.s:
+	cd /home/hxp/dataStructureTest/catkin_ws/build && $(MAKE) -f treeNodeTest/CMakeFiles/mirror.dir/build.make treeNodeTest/CMakeFiles/mirror.dir/src/mirror.cpp.s
+.PHONY : src/mirror.cpp.s
 
 src/threeOrders.o: src/threeOrders.cpp.o
 
@@ -221,8 +263,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
+	@echo "... mirror"
 	@echo "... install/local"
 	@echo "... threeOrders"
+	@echo "... src/mirror.o"
+	@echo "... src/mirror.i"
+	@echo "... src/mirror.s"
 	@echo "... src/threeOrders.o"
 	@echo "... src/threeOrders.i"
 	@echo "... src/threeOrders.s"
