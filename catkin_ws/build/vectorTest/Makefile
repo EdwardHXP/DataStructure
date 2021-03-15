@@ -168,6 +168,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+vectorTest/CMakeFiles/maxLength.dir/rule:
+	cd /home/hxp/dataStructureTest/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 vectorTest/CMakeFiles/maxLength.dir/rule
+.PHONY : vectorTest/CMakeFiles/maxLength.dir/rule
+
+# Convenience name for target.
+maxLength: vectorTest/CMakeFiles/maxLength.dir/rule
+
+.PHONY : maxLength
+
+# fast build rule for target.
+maxLength/fast:
+	cd /home/hxp/dataStructureTest/catkin_ws/build && $(MAKE) -f vectorTest/CMakeFiles/maxLength.dir/build.make vectorTest/CMakeFiles/maxLength.dir/build
+.PHONY : maxLength/fast
+
+# Convenience name for target.
 vectorTest/CMakeFiles/findKth.dir/rule:
 	cd /home/hxp/dataStructureTest/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 vectorTest/CMakeFiles/findKth.dir/rule
 .PHONY : vectorTest/CMakeFiles/findKth.dir/rule
@@ -281,6 +296,33 @@ src/findKth.cpp.s:
 	cd /home/hxp/dataStructureTest/catkin_ws/build && $(MAKE) -f vectorTest/CMakeFiles/findKth.dir/build.make vectorTest/CMakeFiles/findKth.dir/src/findKth.cpp.s
 .PHONY : src/findKth.cpp.s
 
+src/maxLength.o: src/maxLength.cpp.o
+
+.PHONY : src/maxLength.o
+
+# target to build an object file
+src/maxLength.cpp.o:
+	cd /home/hxp/dataStructureTest/catkin_ws/build && $(MAKE) -f vectorTest/CMakeFiles/maxLength.dir/build.make vectorTest/CMakeFiles/maxLength.dir/src/maxLength.cpp.o
+.PHONY : src/maxLength.cpp.o
+
+src/maxLength.i: src/maxLength.cpp.i
+
+.PHONY : src/maxLength.i
+
+# target to preprocess a source file
+src/maxLength.cpp.i:
+	cd /home/hxp/dataStructureTest/catkin_ws/build && $(MAKE) -f vectorTest/CMakeFiles/maxLength.dir/build.make vectorTest/CMakeFiles/maxLength.dir/src/maxLength.cpp.i
+.PHONY : src/maxLength.cpp.i
+
+src/maxLength.s: src/maxLength.cpp.s
+
+.PHONY : src/maxLength.s
+
+# target to generate assembly for a file
+src/maxLength.cpp.s:
+	cd /home/hxp/dataStructureTest/catkin_ws/build && $(MAKE) -f vectorTest/CMakeFiles/maxLength.dir/build.make vectorTest/CMakeFiles/maxLength.dir/src/maxLength.cpp.s
+.PHONY : src/maxLength.cpp.s
+
 src/maxProfit.o: src/maxProfit.cpp.o
 
 .PHONY : src/maxProfit.o
@@ -347,6 +389,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
+	@echo "... maxLength"
 	@echo "... findKth"
 	@echo "... maxProfit"
 	@echo "... install/strip"
@@ -358,6 +401,9 @@ help:
 	@echo "... src/findKth.o"
 	@echo "... src/findKth.i"
 	@echo "... src/findKth.s"
+	@echo "... src/maxLength.o"
+	@echo "... src/maxLength.i"
+	@echo "... src/maxLength.s"
 	@echo "... src/maxProfit.o"
 	@echo "... src/maxProfit.i"
 	@echo "... src/maxProfit.s"

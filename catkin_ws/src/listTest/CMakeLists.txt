@@ -158,6 +158,9 @@ target_link_libraries(reverseKGroup ${catkin_LIBRARIES})
 add_executable(hasCycle src/hasCycle.cpp)
 target_link_libraries(hasCycle ${catkin_LIBRARIES})
 
+add_executable(mergeTwoLists src/mergeTwoLists.cpp)
+target_link_libraries(mergeTwoLists ${catkin_LIBRARIES})
+
 #############
 ## Install ##
 #############

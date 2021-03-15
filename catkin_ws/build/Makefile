@@ -285,6 +285,19 @@ gtest/fast:
 .PHONY : gtest/fast
 
 #=============================================================================
+# Target rules for targets named solve
+
+# Build rule for target.
+solve: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 solve
+.PHONY : solve
+
+# fast build rule for target.
+solve/fast:
+	$(MAKE) -f arrayTest/CMakeFiles/solve.dir/build.make arrayTest/CMakeFiles/solve.dir/build
+.PHONY : solve/fast
+
+#=============================================================================
 # Target rules for targets named merge
 
 # Build rule for target.
@@ -506,6 +519,19 @@ hasCycle/fast:
 .PHONY : hasCycle/fast
 
 #=============================================================================
+# Target rules for targets named mergeTwoLists
+
+# Build rule for target.
+mergeTwoLists: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mergeTwoLists
+.PHONY : mergeTwoLists
+
+# fast build rule for target.
+mergeTwoLists/fast:
+	$(MAKE) -f listTest/CMakeFiles/mergeTwoLists.dir/build.make listTest/CMakeFiles/mergeTwoLists.dir/build
+.PHONY : mergeTwoLists/fast
+
+#=============================================================================
 # Target rules for targets named reverseKGroup
 
 # Build rule for target.
@@ -569,6 +595,19 @@ threeOrders: cmake_check_build_system
 threeOrders/fast:
 	$(MAKE) -f treeNodeTest/CMakeFiles/threeOrders.dir/build.make treeNodeTest/CMakeFiles/threeOrders.dir/build
 .PHONY : threeOrders/fast
+
+#=============================================================================
+# Target rules for targets named maxLength
+
+# Build rule for target.
+maxLength: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 maxLength
+.PHONY : maxLength
+
+# fast build rule for target.
+maxLength/fast:
+	$(MAKE) -f vectorTest/CMakeFiles/maxLength.dir/build.make vectorTest/CMakeFiles/maxLength.dir/build
+.PHONY : maxLength/fast
 
 #=============================================================================
 # Target rules for targets named findKth
@@ -644,6 +683,7 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
+	@echo "... solve"
 	@echo "... merge"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... std_msgs_generate_messages_nodejs"
@@ -661,11 +701,13 @@ help:
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... hasCycle"
+	@echo "... mergeTwoLists"
 	@echo "... reverseKGroup"
 	@echo "... reverseList"
 	@echo "... isValid"
 	@echo "... mirror"
 	@echo "... threeOrders"
+	@echo "... maxLength"
 	@echo "... findKth"
 	@echo "... maxProfit"
 	@echo "... search"

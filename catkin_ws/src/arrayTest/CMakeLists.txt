@@ -152,6 +152,9 @@ include_directories(
 add_executable(merge src/merge.cpp)
 target_link_libraries(merge ${catkin_LIBRARIES})
 
+add_executable(solve src/solve.cpp)
+target_link_libraries(solve ${catkin_LIBRARIES})
+
 #############
 ## Install ##
 #############

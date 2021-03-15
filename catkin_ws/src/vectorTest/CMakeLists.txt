@@ -161,6 +161,9 @@ target_link_libraries(findKth ${catkin_LIBRARIES})
 add_executable(search src/search.cpp)
 target_link_libraries(search ${catkin_LIBRARIES})
 
+add_executable(maxLength src/maxLength.cpp)
+target_link_libraries(maxLength ${catkin_LIBRARIES})
+
 #############
 ## Install ##
 #############

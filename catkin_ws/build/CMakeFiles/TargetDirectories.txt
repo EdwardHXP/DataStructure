@@ -38,6 +38,7 @@
 /home/hxp/dataStructureTest/catkin_ws/build/arrayTest/CMakeFiles/install/local.dir
 /home/hxp/dataStructureTest/catkin_ws/build/arrayTest/CMakeFiles/rebuild_cache.dir
 /home/hxp/dataStructureTest/catkin_ws/build/arrayTest/CMakeFiles/edit_cache.dir
+/home/hxp/dataStructureTest/catkin_ws/build/arrayTest/CMakeFiles/solve.dir
 /home/hxp/dataStructureTest/catkin_ws/build/arrayTest/CMakeFiles/test.dir
 /home/hxp/dataStructureTest/catkin_ws/build/arrayTest/CMakeFiles/merge.dir
 /home/hxp/dataStructureTest/catkin_ws/build/arrayTest/CMakeFiles/std_msgs_generate_messages_py.dir
@@ -66,6 +67,7 @@
 /home/hxp/dataStructureTest/catkin_ws/build/listTest/CMakeFiles/edit_cache.dir
 /home/hxp/dataStructureTest/catkin_ws/build/listTest/CMakeFiles/test.dir
 /home/hxp/dataStructureTest/catkin_ws/build/listTest/CMakeFiles/hasCycle.dir
+/home/hxp/dataStructureTest/catkin_ws/build/listTest/CMakeFiles/mergeTwoLists.dir
 /home/hxp/dataStructureTest/catkin_ws/build/listTest/CMakeFiles/reverseKGroup.dir
 /home/hxp/dataStructureTest/catkin_ws/build/listTest/CMakeFiles/reverseList.dir
 /home/hxp/dataStructureTest/catkin_ws/build/stackTest/CMakeFiles/install/strip.dir
@@ -91,6 +93,7 @@
 /home/hxp/dataStructureTest/catkin_ws/build/vectorTest/CMakeFiles/rebuild_cache.dir
 /home/hxp/dataStructureTest/catkin_ws/build/vectorTest/CMakeFiles/edit_cache.dir
 /home/hxp/dataStructureTest/catkin_ws/build/vectorTest/CMakeFiles/test.dir
+/home/hxp/dataStructureTest/catkin_ws/build/vectorTest/CMakeFiles/maxLength.dir
 /home/hxp/dataStructureTest/catkin_ws/build/vectorTest/CMakeFiles/findKth.dir
 /home/hxp/dataStructureTest/catkin_ws/build/vectorTest/CMakeFiles/maxProfit.dir
 /home/hxp/dataStructureTest/catkin_ws/build/vectorTest/CMakeFiles/install/strip.dir

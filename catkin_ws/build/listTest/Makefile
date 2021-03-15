@@ -183,6 +183,21 @@ hasCycle/fast:
 .PHONY : hasCycle/fast
 
 # Convenience name for target.
+listTest/CMakeFiles/mergeTwoLists.dir/rule:
+	cd /home/hxp/dataStructureTest/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 listTest/CMakeFiles/mergeTwoLists.dir/rule
+.PHONY : listTest/CMakeFiles/mergeTwoLists.dir/rule
+
+# Convenience name for target.
+mergeTwoLists: listTest/CMakeFiles/mergeTwoLists.dir/rule
+
+.PHONY : mergeTwoLists
+
+# fast build rule for target.
+mergeTwoLists/fast:
+	cd /home/hxp/dataStructureTest/catkin_ws/build && $(MAKE) -f listTest/CMakeFiles/mergeTwoLists.dir/build.make listTest/CMakeFiles/mergeTwoLists.dir/build
+.PHONY : mergeTwoLists/fast
+
+# Convenience name for target.
 listTest/CMakeFiles/reverseKGroup.dir/rule:
 	cd /home/hxp/dataStructureTest/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 listTest/CMakeFiles/reverseKGroup.dir/rule
 .PHONY : listTest/CMakeFiles/reverseKGroup.dir/rule
@@ -238,6 +253,33 @@ src/hasCycle.s: src/hasCycle.cpp.s
 src/hasCycle.cpp.s:
 	cd /home/hxp/dataStructureTest/catkin_ws/build && $(MAKE) -f listTest/CMakeFiles/hasCycle.dir/build.make listTest/CMakeFiles/hasCycle.dir/src/hasCycle.cpp.s
 .PHONY : src/hasCycle.cpp.s
+
+src/mergeTwoLists.o: src/mergeTwoLists.cpp.o
+
+.PHONY : src/mergeTwoLists.o
+
+# target to build an object file
+src/mergeTwoLists.cpp.o:
+	cd /home/hxp/dataStructureTest/catkin_ws/build && $(MAKE) -f listTest/CMakeFiles/mergeTwoLists.dir/build.make listTest/CMakeFiles/mergeTwoLists.dir/src/mergeTwoLists.cpp.o
+.PHONY : src/mergeTwoLists.cpp.o
+
+src/mergeTwoLists.i: src/mergeTwoLists.cpp.i
+
+.PHONY : src/mergeTwoLists.i
+
+# target to preprocess a source file
+src/mergeTwoLists.cpp.i:
+	cd /home/hxp/dataStructureTest/catkin_ws/build && $(MAKE) -f listTest/CMakeFiles/mergeTwoLists.dir/build.make listTest/CMakeFiles/mergeTwoLists.dir/src/mergeTwoLists.cpp.i
+.PHONY : src/mergeTwoLists.cpp.i
+
+src/mergeTwoLists.s: src/mergeTwoLists.cpp.s
+
+.PHONY : src/mergeTwoLists.s
+
+# target to generate assembly for a file
+src/mergeTwoLists.cpp.s:
+	cd /home/hxp/dataStructureTest/catkin_ws/build && $(MAKE) -f listTest/CMakeFiles/mergeTwoLists.dir/build.make listTest/CMakeFiles/mergeTwoLists.dir/src/mergeTwoLists.cpp.s
+.PHONY : src/mergeTwoLists.cpp.s
 
 src/reverseKGroup.o: src/reverseKGroup.cpp.o
 
@@ -307,11 +349,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... test"
 	@echo "... hasCycle"
+	@echo "... mergeTwoLists"
 	@echo "... reverseKGroup"
 	@echo "... reverseList"
 	@echo "... src/hasCycle.o"
 	@echo "... src/hasCycle.i"
 	@echo "... src/hasCycle.s"
+	@echo "... src/mergeTwoLists.o"
+	@echo "... src/mergeTwoLists.i"
+	@echo "... src/mergeTwoLists.s"
 	@echo "... src/reverseKGroup.o"
 	@echo "... src/reverseKGroup.i"
 	@echo "... src/reverseKGroup.s"

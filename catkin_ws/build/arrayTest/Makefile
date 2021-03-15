@@ -168,6 +168,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+arrayTest/CMakeFiles/solve.dir/rule:
+	cd /home/hxp/dataStructureTest/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 arrayTest/CMakeFiles/solve.dir/rule
+.PHONY : arrayTest/CMakeFiles/solve.dir/rule
+
+# Convenience name for target.
+solve: arrayTest/CMakeFiles/solve.dir/rule
+
+.PHONY : solve
+
+# fast build rule for target.
+solve/fast:
+	cd /home/hxp/dataStructureTest/catkin_ws/build && $(MAKE) -f arrayTest/CMakeFiles/solve.dir/build.make arrayTest/CMakeFiles/solve.dir/build
+.PHONY : solve/fast
+
+# Convenience name for target.
 arrayTest/CMakeFiles/merge.dir/rule:
 	cd /home/hxp/dataStructureTest/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 arrayTest/CMakeFiles/merge.dir/rule
 .PHONY : arrayTest/CMakeFiles/merge.dir/rule
@@ -434,6 +449,33 @@ src/merge.cpp.s:
 	cd /home/hxp/dataStructureTest/catkin_ws/build && $(MAKE) -f arrayTest/CMakeFiles/merge.dir/build.make arrayTest/CMakeFiles/merge.dir/src/merge.cpp.s
 .PHONY : src/merge.cpp.s
 
+src/solve.o: src/solve.cpp.o
+
+.PHONY : src/solve.o
+
+# target to build an object file
+src/solve.cpp.o:
+	cd /home/hxp/dataStructureTest/catkin_ws/build && $(MAKE) -f arrayTest/CMakeFiles/solve.dir/build.make arrayTest/CMakeFiles/solve.dir/src/solve.cpp.o
+.PHONY : src/solve.cpp.o
+
+src/solve.i: src/solve.cpp.i
+
+.PHONY : src/solve.i
+
+# target to preprocess a source file
+src/solve.cpp.i:
+	cd /home/hxp/dataStructureTest/catkin_ws/build && $(MAKE) -f arrayTest/CMakeFiles/solve.dir/build.make arrayTest/CMakeFiles/solve.dir/src/solve.cpp.i
+.PHONY : src/solve.cpp.i
+
+src/solve.s: src/solve.cpp.s
+
+.PHONY : src/solve.s
+
+# target to generate assembly for a file
+src/solve.cpp.s:
+	cd /home/hxp/dataStructureTest/catkin_ws/build && $(MAKE) -f arrayTest/CMakeFiles/solve.dir/build.make arrayTest/CMakeFiles/solve.dir/src/solve.cpp.s
+.PHONY : src/solve.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -443,6 +485,7 @@ help:
 	@echo "... install/local"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... solve"
 	@echo "... test"
 	@echo "... merge"
 	@echo "... std_msgs_generate_messages_py"
@@ -466,6 +509,9 @@ help:
 	@echo "... src/merge.o"
 	@echo "... src/merge.i"
 	@echo "... src/merge.s"
+	@echo "... src/solve.o"
+	@echo "... src/solve.i"
+	@echo "... src/solve.s"
 .PHONY : help
 
 
